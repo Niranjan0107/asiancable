@@ -11,7 +11,7 @@ const projects = [
     title: "Offshore Platform Power Distribution",
     description:
       "Supplied specialized cables for an offshore drilling platform in the North Sea.",
-    image: "/public/proven.png",
+    image: "/proven.png",
     badges: ["High Efficiency", "High Load Capacity"],
   },
   {
@@ -19,7 +19,7 @@ const projects = [
     title: "Offshore Platform Power Distribution",
     description:
       "Supplied specialized cables for an offshore drilling platform in the North Sea.",
-    image: "/public/proven.png",
+    image: "/proven.png",
     badges: ["High Efficiency", "High Load Capacity"],
   },
   {
@@ -27,7 +27,7 @@ const projects = [
     title: "Offshore Platform Power Distribution",
     description:
       "Supplied specialized cables for an offshore drilling platform in the North Sea.",
-    image: "/public/proven.png",
+    image: "/proven.png",
     badges: ["High Efficiency", "High Load Capacity"],
   },
   {
@@ -35,7 +35,7 @@ const projects = [
     title: "Offshore Platform Power Distribution",
     description:
       "Supplied specialized cables for an offshore drilling platform in the North Sea.",
-    image: "/public/proven.png",
+    image: "/proven.png",
     badges: ["High Efficiency", "High Load Capacity"],
   },
     {
@@ -43,7 +43,7 @@ const projects = [
     title: "Offshore Platform Power Distribution",
     description:
       "Supplied specialized cables for an offshore drilling platform in the North Sea.",
-    image: "/public/proven.png",
+    image: "/proven.png",
     badges: ["High Efficiency", "High Load Capacity"],
   },
   {
@@ -51,7 +51,7 @@ const projects = [
     title: "Offshore Platform Power Distribution",
     description:
       "Supplied specialized cables for an offshore drilling platform in the North Sea.",
-    image: "/public/proven.png",
+    image: "/proven.png",
     badges: ["High Efficiency", "High Load Capacity"],
   },
   {
@@ -59,7 +59,7 @@ const projects = [
     title: "Offshore Platform Power Distribution",
     description:
       "Supplied specialized cables for an offshore drilling platform in the North Sea.",
-    image: "/public/proven.png",
+    image: "/proven.png",
     badges: ["High Efficiency", "High Load Capacity"],
   },
   {
@@ -67,7 +67,7 @@ const projects = [
     title: "Offshore Platform Power Distribution",
     description:
       "Supplied specialized cables for an offshore drilling platform in the North Sea.",
-    image: "/public/proven.png",
+    image: "/proven.png",
     badges: ["High Efficiency", "High Load Capacity"],
   },
 ];

@@ -6,7 +6,7 @@ const Footer = () => {
      <footer className=" relative overflow-hidden text-white">
          <div className="absolute inset-0">
       <img
-        src="/public/footer.png"
+        src="/footer.png"
         alt="Footer Background"
         className="w-full h-full object-cover object-right-bottom"
       />
@@ -43,7 +43,7 @@ const Footer = () => {
                 <button className="h-[48px] px-8 rounded-lg transition flex items-center justify-center gap-3 text-[18px] font-medium">
                   Get in touch
     <img
-      src="/public/arrow.svg"
+      src="/arrow.svg"
       alt=""
       className="max-w-[12px]" 
     />
@@ -58,14 +58,14 @@ const Footer = () => {
                 {/* LOGO */}
                 <div className="flex items-center gap-5 mb-8">
                  <img
-      src="/public/footer-logo.svg"
+      src="/footer-logo.svg"
       alt="Footer Background"
       className="w-full h-full object-cover object-right-bottom max-w-[132px]" 
     />
     
                   <div className="divider">
       <img
-      src="/public/line.svg"
+      src="/line.svg"
       alt="Footer Background"
       className="w-full h-full object-cover object-right-bottom max-w-[26px]" 
     />
@@ -88,7 +88,7 @@ const Footer = () => {
                 <div className="flex items-center gap-2">
                   <div className="w-10 h-10 rounded-lg bg-[#1B49B7] flex items-center justify-center cursor-pointer hover:scale-105 transition">
                       <img
-      src="/public/in.svg"
+      src="/in.svg"
       alt=""
       className="max-w-[16px]" 
     />
@@ -96,7 +96,7 @@ const Footer = () => {
     
                   <div className="w-10 h-10 rounded-lg bg-[#1B49B7] flex items-center justify-center cursor-pointer hover:scale-105 transition">
                        <img
-      src="/public/x.svg"
+      src="/x.svg"
       alt=""
       className="max-w-[16px]" 
     />
@@ -104,7 +104,7 @@ const Footer = () => {
     
                   <div className="w-10 h-10 rounded-lg bg-[#1B49B7] flex items-center justify-center cursor-pointer hover:scale-105 transition">
                         <img
-      src="/public/fb.svg"
+      src="/fb.svg"
       alt=""
       className="max-w-[16px]" 
     />
@@ -112,7 +112,7 @@ const Footer = () => {
     
                   <div className="w-10 h-10 rounded-lg bg-[#1B49B7] flex items-center justify-center cursor-pointer hover:scale-105 transition">
                    <img
-      src="/public/yt.svg"
+      src="/yt.svg"
       alt=""
       className="max-w-[16px]" 
     />

@@ -11,7 +11,7 @@ export default function SustainabilitySection() {
       
       {/* BACKGROUND IMAGE */}
       <img
-        src="/public/sustainability-bg.jpg"
+        src="/sustainability-bg.jpg"
         alt="Sustainability"
         className="absolute inset-0 w-full h-full object-cover"
       />

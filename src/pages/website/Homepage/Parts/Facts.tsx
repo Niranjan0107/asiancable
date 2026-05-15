@@ -28,7 +28,7 @@ export default function FactsSection() {
                 {/* FLAGS */}
                 <div className="flex items-center flex-wrap gap-2 border-[0.5px] border-[#E1E2E5] rounded-[100px] p-1">
               <img
-  src="/public/Flags.svg"
+  src="/Flags.svg"
   alt="Manufacturing"
   className="w-full h-full object-cover"
 />
@@ -93,7 +93,7 @@ export default function FactsSection() {
               {/* IMAGE */}
               <div className="relative h-[450px] overflow-hidden">
                <img
-  src="/public/pdc.png"
+  src="/pdc.png"
   alt="Manufacturing"
   className="w-full h-full object-cover"
 />
