@@ -5,19 +5,19 @@ const testimonials = [
     text: `"Asian Cables exceeded expectations. Their team collaborated seamlessly, resulting in a visually stunning and functional end product."`,
     name: "Danny Tanner",
     role: "Co-Founder | Atomic",
-    image: "/src/assets/engineering.png",
+    image: "/public/engineering.png",
   },
   {
     text: `"We’ve partnered with several providers in the past, but none compared to Asian Cables’ meticulous attention to detail and true dedication to our needs. They made the whole experience seamless — and the outcomes are undeniable."`,
     name: "Lynn Tanner",
     role: "Co-Founder | Atomic",
-    image: "/src/assets/engineering.png",
+    image: "/public/engineering.png",
   },
   {
     text: `"Working with Asian Cables was like discovering a fresh wave of innovation. They grasped our goals immediately and transformed them into reality with skillful execution and daring design elements."`,
     name: "Kevin Arnold",
     role: "Co-Founder | Atomic",
-    image: "/src/assets/engineering.png",
+    image: "/public/engineering.png",
   },
 ];
 

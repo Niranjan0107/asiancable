@@ -7,20 +7,20 @@ const blogs = [
     tag: "Event",
     title: "Conferences & Summits",
     description: "",
-    image: "/src/assets/sustainability-bg.jpg",
+    image: "/public/sustainability-bg.jpg",
   },
   {
     tag: "Blog",
     title: "Festivals & Live Experiences",
     description:
       "Best for creative and large public events with high traffic and multi-location challenges.",
-      image: "/src/assets/sustainability-bg.jpg",
+      image: "/public/sustainability-bg.jpg",
   },
   {
     tag: "Event",
     title: "Trade Shows & Exhibitions",
     description: "",
-       image: "/src/assets/sustainability-bg.jpg",
+       image: "/public/sustainability-bg.jpg",
   },
 ];
 

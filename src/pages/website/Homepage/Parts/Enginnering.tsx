@@ -56,7 +56,7 @@ export default function EngineeringAccordionSection() {
           <div className="relative  max-h-[550px] rounded-[6px] overflow-hidden">
 
             <img
-              src="/src/assets/engineering.png"
+              src="/public/engineering.png"
               alt="Engineering"
               className="object-cover"
             />

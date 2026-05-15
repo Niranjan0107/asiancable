@@ -26,8 +26,8 @@ const WebsiteNavbar = () => {
            <img
     src={
       isScrolled
-        ? "/src/assets/LOGO_Dark.svg"
-        : "/src/assets/footer-logo.svg"
+        ? "/public/LOGO_Dark.svg"
+        : "/public/footer-logo.svg"
     }
     alt="Asian Cables"
     className="h-[36px] w-auto transition-all duration-300"

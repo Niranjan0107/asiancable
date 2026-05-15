@@ -218,7 +218,7 @@ export default function Homepage() {
 
     <div className="blur-divider">
       <img
-  src="/src/assets/divider.svg"
+  src="/public/divider.svg"
   alt=""
   className="max-w-[100%]" 
 />
