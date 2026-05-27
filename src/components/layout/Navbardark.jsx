@@ -28,8 +28,8 @@ const WebsiteNavbarDark = () => {
            <img
     src={
       isScrolled
-        ? "//LOGO_Dark.svg"
-        : "//LOGO_Dark.svg"
+        ? "/LOGO_Dark.svg"
+        : "/LOGO_Dark.svg"
     }
     alt="Asian Cables"
     className="h-[36px] w-auto transition-all duration-300"

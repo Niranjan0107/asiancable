@@ -37,8 +37,8 @@ const [showMegaMenu, setShowMegaMenu] =
            <img
     src={
       isScrolled || showMegaMenu
-        ? "//LOGO_Dark.svg"
-        : "//footer-logo.svg"
+        ? "/LOGO_Dark.svg"
+        : "/footer-logo.svg"
     }
     alt="Asian Cables"
     className="min-w-[110px] w-[110px] h-[34px] max-w-[110px] max-h-[34px] w-auto transition-all duration-300"

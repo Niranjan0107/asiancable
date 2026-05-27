@@ -32,7 +32,7 @@ export default function ProductsMegaMenu() {
               >
                <span className="flex items-center gap-2">
                    <bdi><img
-  src="//menu-cable.svg"
+  src="/menu-cable.svg"
   className={`w-[23px] h-[23px] object-contain transition ${
     activeTab === "industry"
       ? "brightness-0"
@@ -56,7 +56,7 @@ export default function ProductsMegaMenu() {
               >
                 <span className="flex items-center gap-2">
                   <bdi><img
-  src="//menu-cable.svg"
+  src="/menu-cable.svg"
   className={`w-[23px] h-[23px] object-contain transition ${
     activeTab === "type"
       ? "brightness-0"
@@ -344,7 +344,7 @@ HT                   </Link>
       </div>
 
     </div>
-          <img src="//menu-prop.png" className="absolute right-0 bottom-0 w-[200px]" />
+          <img src="/menu-prop.png" className="absolute right-0 bottom-0 w-[200px]" />
 
     </>
   );
