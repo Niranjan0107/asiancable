@@ -7,31 +7,31 @@ const blogs = [
     tag: "Event",
     title: "Conferences & Summits",
     description: "",
-    image: "/sustainability-bg.jpg",
+    image: "//sustainability-bg.jpg",
   },
   {
     tag: "Blog",
     title: "Festivals & Live Experiences",
     description:
       "Best for creative and large public events with high traffic and multi-location challenges.",
-      image: "/sustainability-bg.jpg",
+      image: "//sustainability-bg.jpg",
   },
   {
     tag: "Event",
     title: "Trade Shows & Exhibitions",
     description: "",
-       image: "/sustainability-bg.jpg",
+       image: "//sustainability-bg.jpg",
   },
 ];
 
 export default function BlogSection() {
   return (
-    <section className="bg-[#f6f6f6] py-24">
+    <section className="bg-[#f6f6f6] py-24 reveal-section">
       <div className="max-w-[1320px] mx-auto px-4">
 
         {/* HEADING */}
         <div className="text-center mb-16">
-          <h2 className="text-[#21409A] text-[46px] leading-none font-black italic">
+          <h2 className="text-[#1E3C8C] text-[46px] leading-none font-black italic">
             Latest From Asian Cables
           </h2>
         </div>

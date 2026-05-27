@@ -15,18 +15,25 @@ import Contact from './pages/website/Contact';
 import Dashboard from './pages/dashboard/Dashboard';
 import CategoryList from './pages/category/CategoryList';
 import ProductList from './pages/product/ProductList';
-
+import Product from './pages/website/Products/Product';
+import Industy from './pages/website/Industries/IndustryPage';
+import RevealProvider from "./hooks/RevealProvider";
 function App() {
+
   return (
+    <>
+  
     <Router>
+        <RevealProvider/>
       <Routes>
         {/* Public Routes */}
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/login" element={<Login />} />
-
         {/* Protected Admin Routes */}
+        <Route path="/products" element={<Product />} />
+        <Route path="/industry" element={<Industy />} />
         <Route 
           path="/admin" 
           element={
@@ -47,6 +54,7 @@ function App() {
         autoClose={3000}
       />
     </Router>
+    </>
   );
 }
 

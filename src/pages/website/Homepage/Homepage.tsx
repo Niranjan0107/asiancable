@@ -2,8 +2,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { ChevronRight, Download, Phone, FileText } from "lucide-react";
-import ApplicationsSection from "./Parts/Applications";
+  import { ChevronRight} from "lucide-react";
+import { Link } from "react-router-dom";
 import Footer from "../../../components/layout/Footer";
 import AboutUs from "./Parts/About";
 import FactsSection from "./Parts/Facts";
@@ -14,216 +14,254 @@ import EngineeringAccordionSection from "./Parts/Enginnering";
 import TestimonialsSection from "./Parts/Testimonials";
 import Blogs from "./Parts/Blogs";
 import ProvenFieldSection from "./Parts/Fields";
+import {
+  Swiper,
+  SwiperSlide,
+} from "swiper/react";
+
+import {
+  Parallax,
+  Autoplay,
+} from "swiper/modules";
+
+import "swiper/css";
+import { useRef } from "react";
+
+
 
 const slides = [
   {
     id: 1,
     image:
-      "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?q=80&w=1920&auto=format&fit=crop",
-    title: "Reliability, Redefined",
+      "//home1.jpg",
+    title: "Endurance, by design",
     description:
       "Delivering world-class power and telecom cables for critical infrastructure across industries",
     nextText: "Sustainable Impact",
+    buttonText: "Explore Products",
+    buttonLink: "/products",
   },
   {
     id: 2,
     image:
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1920&auto=format&fit=crop",
-    title: "Powering Future Networks",
+      "//home2.png",
+    title: "Transforming lives by building sustainable world-class infrastructure",
     description:
-      "Advanced cable solutions designed for modern cities and digital transformation",
+      "Delivering world-class power and telecom cables for critical infrastructure across industries",
     nextText: "Innovation First",
+    buttonText: "Sustainability",
+    buttonLink: "/products",
   },
   {
     id: 3,
     image:
-      "https://images.unsplash.com/photo-1509395176047-4a66953fd231?q=80&w=1920&auto=format&fit=crop",
-    title: "Built For Critical Systems",
+      "//home3.jpg",
+    title: "Powering a future that holds the world",
     description:
-      "Trusted infrastructure solutions engineered for durability and performance",
+      "Delivering world-class power and telecom cables for critical infrastructure across industries",
     nextText: "Global Excellence",
+    buttonText: "Company Impact",
+    buttonLink: "/products",
+  },
+  {
+    id: 4,
+    image:
+      "//home4.jpg",
+    title: "Reliability, Redefined",
+    description:
+      "Delivering world-class power and telecom cables for critical infrastructure across industries",
+    nextText: "Reliability, Redefined",
+    buttonText: "Watch Full Video",
+    buttonLink: "/products",
   },
 ];
 
-const downloads = [
-  {
-    name: "Company Profile.pdf",
-    url: "/downloads/company-profile.pdf",
-  },
-  {
-    name: "Product Catalog.pdf",
-    url: "/downloads/product-catalog.pdf",
-  },
-  {
-    name: "Annual Report.pdf",
-    url: "/downloads/annual-report.pdf",
-  },
-  {
-    name: "Technical Datasheet.pdf",
-    url: "/downloads/datasheet.pdf",
-  },
-];
+
 
 export default function Homepage() {
+
+
+const swiperRef = useRef(null); 
+
   const [current, setCurrent] = useState(0);
 
   // Auto slide
-  useEffect(() => {
-    const interval = setInterval(() => {
-      handleNext();
-    }, 6000);
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     handleNext();
+  //   }, 6000);
 
-    return () => clearInterval(interval);
-  }, [current]);
+  //   return () => clearInterval(interval);
+  // }, [current]);
 
-  const handleNext = () => {
-    setCurrent((prev) => (prev + 1) % slides.length);
-  };
+  // const handleNext = () => {
+  //   setCurrent((prev) => (prev + 1) % slides.length);
+  // };
 
   return (
     <>
     <WebsiteNavbar />
-    <div className="relative h-screen w-full overflow-hidden1 bg-black">
-      {/* Background Images */}
-      {slides.map((slide, index) => (
-        <div
-          key={slide.id}
-          className={`absolute inset-0 transition-opacity duration-1000 ${
-            current === index ? "z-10 opacity-100" : "z-0 opacity-0"
-          }`}
-        >
-          <img
-            src={slide.image}
-            alt={slide.title}
-            className="h-full w-full object-cover"
-          />
+    <Swiper
+  modules={[
+    Parallax,
+    Autoplay,
+  ]}
+  speed={1200}
+  parallax={true}
+  autoplay={{
+    delay: 4000,
+    disableOnInteraction: false,
+  }}
+  loop={true}
+   onSwiper={(swiper) =>
+    (swiperRef.current = swiper)
+  }
+  onSlideChange={(swiper) =>
+    setCurrent(swiper.realIndex)
+  }
 
-          {/* Dark Overlay */}
-          <div className="absolute inset-0 bg-gradient-to-r from-black/75 via-black/45 to-black/20" />
+  
+  className="relative h-screen main-banner w-full overflow-hidden bg-black"
+>
 
-          {/* Blue Overlay */}
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom,_rgba(0,140,255,0.35),_transparent_45%)]" />
-        </div>
-      ))}
+  {slides.map((slide, index) => (
+    <SwiperSlide key={slide.id}>
 
-      {/* Network Lines */}
-      <div className="pointer-events-none absolute bottom-0 left-0 right-0 z-20 h-[40%] opacity-70">
-        <svg
-          viewBox="0 0 1200 300"
-          className="h-full w-full"
-          preserveAspectRatio="none"
-        >
-          <path
-            d="M0 240 C200 100 300 280 500 180 S900 120 1200 220"
-            fill="none"
-            stroke="#66ccff"
-            strokeWidth="2"
-          />
+    {/* BG IMAGE */}
+{/* <div
+  className="absolute inset-0"
+  data-swiper-parallax="-23%"
+> */}
 
-          <path
-            d="M0 260 C300 150 450 260 700 170 S1000 120 1200 260"
-            fill="none"
-            stroke="#5aa9ff"
-            strokeWidth="2"
-          />
+  <div className="absolute inset-0 overflow-hidden" >
+  
+  <img
+    src={slide.image}
+    alt={slide.title}
+    className="h-full w-full object-cover scale-110"
+  />
+</div>
 
-          {[...Array(18)].map((_, i) => (
-            <circle
-              key={i}
-              cx={i * 70}
-              cy={180 + Math.sin(i) * 40}
-              r="5"
-              fill="white"
-            />
-          ))}
-        </svg>
-      </div>
+{/* DARK OVERLAY */}
+<div className="absolute inset-0 z-10 bg-gradient-to-r from-black/75 via-black/45 to-black/20" />
 
-      {/* Main Content */}
-      <div className="relative z-30 flex h-full items-center px-6 max-w-[1320px] mx-auto">
-        <div className="max-w-2xl">
-          <h1 className="text-[64px] font-extrabold italic leading-tight text-white">
-            {slides[current].title}
+{/* BLUE OVERLAY */}
+<div className="absolute inset-0 z-10 bg-[radial-gradient(circle_at_bottom,_rgba(0,140,255,0.35),_transparent_45%)]" />
+
+      {/* CONTENT */}
+      <div className="relative z-30 flex h-full items-end px-6 max-w-[1320px] mx-auto pb-[13%]">
+
+        <div className="max-w-4xl" data-swiper-parallax="-180">
+
+          <h1
+            data-swiper-parallax="-50"
+            className="text-[58px] font-extrabold italic leading-tight text-white"
+          >
+            {slide.title}
           </h1>
 
-          <p className="mt-6 max-w-xl text-[18px] leading-8 text-white/80">
-            {slides[current].description}
+          <p
+            data-swiper-parallax="-50"
+            className="mt-2 max-w-xl text-[18px] leading-8 text-white/80"
+          >
+            {slide.description}
           </p>
 
-          <button className="mt-10 flex items-center gap-2 rounded-md bg-white px-6 py-2 text-[20px] font-semibold text-blue-900 transition hover:bg-blue-50">
-            Watch Full Video
-            <ChevronRight size={20} />
-          </button>
-        </div>
-      </div>
+          <div data-swiper-parallax="-50">
 
-      {/* Next Slide Card */}
-      <button
-        onClick={handleNext}
-        className="absolute bottom-36 right-10 z-40 flex w-[250px] items-center overflow-hidden rounded-md border border-white/20 bg-black/40 backdrop-blur-md transition hover:bg-black/60"
-      >
-        <img
-          src={slides[(current + 1) % slides.length].image}
-          alt="next"
-          className="h-20 w-24 object-cover"
-        />
+            <Link
+              to={slide.buttonLink}
+              className="border-it mt-6 inline-flex items-center gap-2 bg-white px-5 py-2 text-[20px] font-[500] text-[#1E3C8C]"
+            >
+              {slide.buttonText}
 
-        <div className="px-4 text-left">
-          <p className="text-xs uppercase tracking-widest text-white/60">
-            next
-          </p>
-
-          <h3 className="mt-1 text-lg font-medium text-white">
-            {slides[(current + 1) % slides.length].nextText}
-          </h3>
-        </div>
-      </button>
-
-      {/* Bottom Floating Menu */}
-      <div className="absolute -bottom-[20px] left-1/2 z-999999 flex -translate-x-1/2 overflow-hidden rounded-md border border-blue-200 bg-white shadow-2xl">
-        <button className="flex items-center gap-2 border-r px-6 py-4 text-sm font-medium text-blue-900 hover:bg-blue-50">
-          <FileText size={18} />
-          Company Overview
-        </button>
-
-        <button className="flex items-center gap-2 border-r px-6 py-4 text-sm font-medium text-blue-900 hover:bg-blue-50">
-          <Phone size={18} />
-          Contact us
-        </button>
-
-        {/* Downloads Dropdown */}
-        <div className="group relative">
-          <button className="flex items-center gap-2 bg-[#1f4aa8] px-6 py-4 text-sm font-medium text-white hover:bg-[#173983]">
-            <Download size={18} />
-            Downloads
-          </button>
-
-          <div className="absolute bottom-full right-0 mb-2 hidden min-w-[260px] overflow-hidden rounded-md border border-gray-200 bg-white shadow-2xl group-hover:block">
-            {downloads.map((file, index) => (
-              <a
-                key={index}
-                href={file.url}
-                download
-                className="flex items-center justify-between border-b px-4 py-3 text-sm text-gray-700 transition hover:bg-blue-50 last:border-none"
-              >
-                <span>{file.name}</span>
-
-                <Download size={16} className="text-blue-700" />
-              </a>
-            ))}
+              <ChevronRight size={20} />
+            </Link>
           </div>
         </div>
       </div>
-    </div>
+    </SwiperSlide>
+  ))}
 
+  {/* NEXT CARD */}
+  <button
+    onClick={() =>
+      swiperRef.current?.slideNext()
+    }
+    
+    className="absolute bottom-40 right-20 z-40 w-[250px] overflow-hidden rounded-[10px] border border-[#383838] shadow-[0px_4px_17.9px_0px_#00000040] bg-black/40 backdrop-blur-xl transition-all duration-500 hover:bg-black/60"
+  >
+
+    <div className="flex">
+
+      {/* IMAGE */}
+      <div className="h-[66px] w-[58px] shrink-0 overflow-hidden">
+
+        <img
+          src={
+            slides[
+              (current + 1) %
+                slides.length
+            ].image
+          }
+          alt="next"
+          className="h-full w-full object-cover"
+        />
+      </div>
+
+      {/* CONTENT */}
+      <div className="ml-3">
+
+        <p className="mb-1 text-left text-[13.5px] lowercase tracking-wide text-white">
+          next
+        </p>
+
+        <p className="text-[16px] font-medium leading-none text-white/70">
+          {
+            slides[
+              (current + 1) %
+                slides.length
+            ].nextText
+          }
+        </p>
+
+        {/* BULLETS */}
+        <div className="mt-3 flex items-center gap-2">
+
+          {slides.map((_, index) => {
+            const isActive =
+              index ===
+              (current + 1) %
+                slides.length;
+
+            return (
+              <div
+                key={index}
+                className="relative h-[1.6px] flex-1 overflow-hidden rounded-full bg-[#A2A2A2]"
+              >
+
+                <div
+                  className={`absolute left-0 top-0 h-full bg-[#1E3C8C] ${
+                    isActive
+                      ? "animate-progress"
+                      : "w-0"
+                  }`}
+                />
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    </div>
+  </button>
+</Swiper>
     <div className="blur-divider">
       <img
-  src="/divider.svg"
+  src="//divider.svg"
   alt=""
   className="max-w-[100%]" 
 />
-    </div>
-    
+    </div>  
     <AboutUs/>
           <FactsSection/>
           <EngineeringAccordionSection/>

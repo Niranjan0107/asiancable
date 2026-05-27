@@ -5,30 +5,30 @@ const testimonials = [
     text: `"Asian Cables exceeded expectations. Their team collaborated seamlessly, resulting in a visually stunning and functional end product."`,
     name: "Danny Tanner",
     role: "Co-Founder | Atomic",
-    image: "/engineering.png",
+    image: "//engineering.png",
   },
   {
     text: `"We’ve partnered with several providers in the past, but none compared to Asian Cables’ meticulous attention to detail and true dedication to our needs. They made the whole experience seamless — and the outcomes are undeniable."`,
     name: "Lynn Tanner",
     role: "Co-Founder | Atomic",
-    image: "/engineering.png",
+    image: "//engineering.png",
   },
   {
     text: `"Working with Asian Cables was like discovering a fresh wave of innovation. They grasped our goals immediately and transformed them into reality with skillful execution and daring design elements."`,
     name: "Kevin Arnold",
     role: "Co-Founder | Atomic",
-    image: "/engineering.png",
+    image: "//engineering.png",
   },
 ];
 
 export default function TestimonialsSection() {
   return (
-    <section className="py-24 bg-[#ffffff] overflow-hidden">
+    <section className="py-24 bg-[#ffffff] overflow-hidden reveal-section">
       <div className="max-w-[100%] mx-auto">
 
         {/* HEADING */}
         <div className="text-center mb-16">
-          <h2 className="text-[46px] leading-none font-black italic text-[#21409A]">
+          <h2 className="text-[46px] leading-none font-black italic text-[#1E3C8C]">
             What Our Clients Say
           </h2>
         </div>

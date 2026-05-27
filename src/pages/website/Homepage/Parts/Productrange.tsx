@@ -1,5 +1,5 @@
 import {
-  ChevronRight} from "lucide-react";
+  ChevronRight, Check} from "lucide-react";
 export default function ProductRangeSection() {
   const products = [
     {
@@ -67,12 +67,12 @@ export default function ProductRangeSection() {
   ];
 
   return (
-    <section className="bg-[#f5f5f5] py-20">
+    <section className="bg-[#f5f5f5] py-20 reveal-section">
       <div className="max-w-[1320px] mx-auto px-4">
         
         {/* HEADING */}
         <div className="text-center mb-14">
-          <h2 className="text-[46px] leading-none font-black italic text-[#21409A] mb-4">
+          <h2 className="text-[46px] leading-none font-black italic text-[#1E3C8C] mb-4">
             Our Products Range
           </h2>
 
@@ -109,9 +109,9 @@ export default function ProductRangeSection() {
                   {products[0].points.map((point, index) => (
                     <div
                       key={index}
-                      className="flex items-center gap-3 text-white text-[16px]"
+                      className="flex items-center gap-2 text-white text-[16px]"
                     >
-                      <span>✓</span>
+                      <span><Check size={16}/></span>
                       <span>{point}</span>
                     </div>
                   ))}
@@ -120,7 +120,7 @@ export default function ProductRangeSection() {
                 <div className="absolute right-0 bottom-0 flex justify-end">
                   <button className="text-white text-[16px] flex items-center gap-2">
                     Read More
-                    <span>›</span>
+                    <span><ChevronRight size={16}/></span>
                   </button>
                 </div>
               </div>
@@ -162,7 +162,7 @@ export default function ProductRangeSection() {
                           key={idx}
                           className="flex items-center gap-2 text-white text-[15px]"
                         >
-                          <span>✓</span>
+                          <span><Check size={16}/></span>
                           <span>{point}</span>
                         </div>
                       ))}
@@ -171,7 +171,7 @@ export default function ProductRangeSection() {
                     <div className="absolute right-0 bottom-0 flex justify-end">
                       <button className="text-white text-[15px] flex items-center gap-2">
                         Read More
-                        <span>›</span>
+                        <span><ChevronRight size={16}/></span>
                       </button>
                     </div>
                   </div>
@@ -210,7 +210,7 @@ export default function ProductRangeSection() {
                           key={idx}
                           className="flex items-center gap-2 text-white text-[15px]"
                         >
-                          <span>✓</span>
+                          <span><Check size={16}/></span>
                           <span>{point}</span>
                         </div>
                       ))}
@@ -219,7 +219,7 @@ export default function ProductRangeSection() {
                     <div className="absolute right-0 bottom-0 flex justify-end">
                       <button className="text-white text-[15px] flex items-center gap-2">
                         Read More
-                        <span>›</span>
+                        <span><ChevronRight size={15} /></span>
                       </button>
                     </div>
                   </div>
@@ -255,9 +255,9 @@ export default function ProductRangeSection() {
                   {products[5].points.map((point, index) => (
                     <div
                       key={index}
-                      className="flex items-center gap-3 text-white text-[16px]"
+                      className="flex items-center gap-2 text-white text-[16px]"
                     >
-                      <span>✓</span>
+                      <span><Check size={16}/></span>
                       <span>{point}</span>
                     </div>
                   ))}
