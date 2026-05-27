@@ -11,7 +11,7 @@ const projects = [
     title: "Offshore Platform Power Distribution",
     description:
       "Supplied specialized cables for an offshore drilling platform in the North Sea.",
-    image: "//proven.png",
+    image: "/proven.png",
     badges: ["High Efficiency", "High Load Capacity"],
   },
   {
@@ -19,7 +19,7 @@ const projects = [
     title: "Offshore Platform Power Distribution",
     description:
       "Supplied specialized cables for an offshore drilling platform in the North Sea.",
-    image: "//proven.png",
+    image: "/proven.png",
     badges: ["High Efficiency", "High Load Capacity"],
   },
   {
@@ -27,7 +27,7 @@ const projects = [
     title: "Offshore Platform Power Distribution",
     description:
       "Supplied specialized cables for an offshore drilling platform in the North Sea.",
-    image: "//proven.png",
+    image: "/proven.png",
     badges: ["High Efficiency", "High Load Capacity"],
   },
   {
@@ -35,7 +35,7 @@ const projects = [
     title: "Offshore Platform Power Distribution",
     description:
       "Supplied specialized cables for an offshore drilling platform in the North Sea.",
-    image: "//proven.png",
+    image: "/proven.png",
     badges: ["High Efficiency", "High Load Capacity"],
   },
     {
@@ -43,7 +43,7 @@ const projects = [
     title: "Offshore Platform Power Distribution",
     description:
       "Supplied specialized cables for an offshore drilling platform in the North Sea.",
-    image: "//proven.png",
+    image: "/proven.png",
     badges: ["High Efficiency", "High Load Capacity"],
   },
   {
@@ -51,7 +51,7 @@ const projects = [
     title: "Offshore Platform Power Distribution",
     description:
       "Supplied specialized cables for an offshore drilling platform in the North Sea.",
-    image: "//proven.png",
+    image: "/proven.png",
     badges: ["High Efficiency", "High Load Capacity"],
   },
   {
@@ -59,7 +59,7 @@ const projects = [
     title: "Offshore Platform Power Distribution",
     description:
       "Supplied specialized cables for an offshore drilling platform in the North Sea.",
-    image: "//proven.png",
+    image: "/proven.png",
     badges: ["High Efficiency", "High Load Capacity"],
   },
   {
@@ -67,7 +67,7 @@ const projects = [
     title: "Offshore Platform Power Distribution",
     description:
       "Supplied specialized cables for an offshore drilling platform in the North Sea.",
-    image: "//proven.png",
+    image: "/proven.png",
     badges: ["High Efficiency", "High Load Capacity"],
   },
 ];
@@ -192,7 +192,7 @@ export default function ProvenFieldSection() {
 //     title: "Offshore Platform Power Distribution",
 //     description:
 //       "Supplied specialized cables for an offshore drilling platform in the North Sea.",
-//     image: "//proven.png",
+//     image: "/proven.png",
 //     badges: ["High Efficiency", "High Load Capacity"],
 //   },
 //   {
@@ -200,7 +200,7 @@ export default function ProvenFieldSection() {
 //     title: "Offshore Platform Power Distribution",
 //     description:
 //       "Supplied specialized cables for an offshore drilling platform in the North Sea.",
-//     image: "//proven.png",
+//     image: "/proven.png",
 //     badges: ["High Efficiency", "High Load Capacity"],
 //   },
 //   {
@@ -208,7 +208,7 @@ export default function ProvenFieldSection() {
 //     title: "Offshore Platform Power Distribution",
 //     description:
 //       "Supplied specialized cables for an offshore drilling platform in the North Sea.",
-//     image: "//proven.png",
+//     image: "/proven.png",
 //     badges: ["High Efficiency", "High Load Capacity"],
 //   },
 //   {
@@ -216,7 +216,7 @@ export default function ProvenFieldSection() {
 //     title: "Offshore Platform Power Distribution",
 //     description:
 //       "Supplied specialized cables for an offshore drilling platform in the North Sea.",
-//     image: "//proven.png",
+//     image: "/proven.png",
 //     badges: ["High Efficiency", "High Load Capacity"],
 //   },
 //     {
@@ -224,7 +224,7 @@ export default function ProvenFieldSection() {
 //     title: "Offshore Platform Power Distribution",
 //     description:
 //       "Supplied specialized cables for an offshore drilling platform in the North Sea.",
-//     image: "//proven.png",
+//     image: "/proven.png",
 //     badges: ["High Efficiency", "High Load Capacity"],
 //   },
 //   {
@@ -232,7 +232,7 @@ export default function ProvenFieldSection() {
 //     title: "Offshore Platform Power Distribution",
 //     description:
 //       "Supplied specialized cables for an offshore drilling platform in the North Sea.",
-//     image: "//proven.png",
+//     image: "/proven.png",
 //     badges: ["High Efficiency", "High Load Capacity"],
 //   },
 //   {
@@ -240,7 +240,7 @@ export default function ProvenFieldSection() {
 //     title: "Offshore Platform Power Distribution",
 //     description:
 //       "Supplied specialized cables for an offshore drilling platform in the North Sea.",
-//     image: "//proven.png",
+//     image: "/proven.png",
 //     badges: ["High Efficiency", "High Load Capacity"],
 //   },
 //   {
@@ -248,7 +248,7 @@ export default function ProvenFieldSection() {
 //     title: "Offshore Platform Power Distribution",
 //     description:
 //       "Supplied specialized cables for an offshore drilling platform in the North Sea.",
-//     image: "//proven.png",
+//     image: "/proven.png",
 //     badges: ["High Efficiency", "High Load Capacity"],
 //   },
 // ];

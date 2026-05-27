@@ -23,7 +23,7 @@ const Product = () => {
       <div className="bg-white h-[680px] flex items-center justify-center">
 
         <img
-          src="//p-main.png"
+          src="/p-main.png"
           alt="Control Cable"
           className="w-[88%] object-contain"
         />
@@ -63,7 +63,7 @@ const Product = () => {
 
             <div className="w-8 h-8 flex items-center justify-center shrink-0">
               <img
-                src="//p-1.svg"
+                src="/p-1.svg"
                 alt=""
                 className="w-8"
               />
@@ -85,7 +85,7 @@ const Product = () => {
 
             <div className="w-8 h-8 flex items-center justify-center shrink-0">
               <img
-                src="//p-2.svg"
+                src="/p-2.svg"
                 alt=""
                 className="w-8"
               />
@@ -107,7 +107,7 @@ const Product = () => {
 
             <div className="w-8 h-8 flex items-center justify-center shrink-0">
               <img
-                src="//p-3.svg"
+                src="/p-3.svg"
                 alt=""
                 className="w-8"
               />
@@ -129,7 +129,7 @@ const Product = () => {
 
             <div className="w-8 h-8 flex items-center justify-center shrink-0">
               <img
-                src="//p-4.svg"
+                src="/p-4.svg"
                 alt=""
                 className="w-8"
               />
@@ -221,7 +221,7 @@ const Product = () => {
         <div className="rounded-[8px] overflow-hidden shadow-[0px_20px_60px_rgba(0,0,0,0.12)]">
 
           <img
-            src="//image99.png"
+            src="/image99.png"
             alt="Product Overview"
             className="w-full h-[520px] object-cover"
           />
@@ -307,7 +307,7 @@ const Product = () => {
 
         {/* BACKGROUND IMAGE */}
         <img
-          src="//Container-2.png"
+          src="/Container-2.png"
           alt=""
           className="absolute top-0 right-0 w-[55%] h-full object-cover object-right-topss"
         />
@@ -364,7 +364,7 @@ const Product = () => {
         <div className="relative bg-[#12398F] rounded-[6px] overflow-hidden h-[250px]">
                {/* BACKGROUND IMAGE */}
         <img
-          src="//footer.jpg"
+          src="/footer.jpg"
           alt=""
           className="absolute top-0 right-0 w-[100%] h-full object-cover"
         />
@@ -405,7 +405,7 @@ const Product = () => {
 
          {/* BACKGROUND IMAGE */}
         <img
-          src="//Container-3.png"
+          src="/Container-3.png"
           alt=""
           className="absolute top-0 right-0 w-[100%] h-full object-cover object-right-top"
         />

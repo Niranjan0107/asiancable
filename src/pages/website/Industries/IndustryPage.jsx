@@ -19,7 +19,7 @@ const IndustryPage = () => {
 
   {/* BACKGROUND IMAGE */}
   <img
-    src="//industry-main.png"
+    src="/industry-main.png"
     alt="Oil & Gas"
     className="absolute inset-0 w-full h-full object-cover"
   />

@@ -33,7 +33,7 @@ const slides = [
   {
     id: 1,
     image:
-      "//home1.jpg",
+      "/home1.jpg",
     title: "Endurance, by design",
     description:
       "Delivering world-class power and telecom cables for critical infrastructure across industries",
@@ -44,7 +44,7 @@ const slides = [
   {
     id: 2,
     image:
-      "//home2.png",
+      "/home2.png",
     title: "Transforming lives by building sustainable world-class infrastructure",
     description:
       "Delivering world-class power and telecom cables for critical infrastructure across industries",
@@ -55,7 +55,7 @@ const slides = [
   {
     id: 3,
     image:
-      "//home3.jpg",
+      "/home3.jpg",
     title: "Powering a future that holds the world",
     description:
       "Delivering world-class power and telecom cables for critical infrastructure across industries",
@@ -66,7 +66,7 @@ const slides = [
   {
     id: 4,
     image:
-      "//home4.jpg",
+      "/home4.jpg",
     title: "Reliability, Redefined",
     description:
       "Delivering world-class power and telecom cables for critical infrastructure across industries",
@@ -257,7 +257,7 @@ const swiperRef = useRef(null);
 </Swiper>
     <div className="blur-divider">
       <img
-  src="//divider.svg"
+  src="/divider.svg"
   alt=""
   className="max-w-[100%]" 
 />

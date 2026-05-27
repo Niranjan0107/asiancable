@@ -23,7 +23,7 @@ export default function ProductResources() {
 
       {/* BACKGROUND IMAGE */}
       <img
-        src="//po.jpg"
+        src="/po.jpg"
         alt="Resources"
         className="w-full h-full object-cover"
       />

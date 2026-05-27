@@ -4,7 +4,7 @@ export default function IndustryApplications() {
       title: "Offshore Platforms",
       description:
         "Marine-grade cables for drilling rigs and platforms",
-      image: "//ia1.jpg",
+      image: "/ia1.jpg",
       large: true,
       tag: "PRIMARY APPLICATION",
     },
@@ -12,20 +12,20 @@ export default function IndustryApplications() {
       title: "Refineries",
       description:
         "High-temperature resistant cables for processing units",
-      image: "//ip2.jpg",
+      image: "/ip2.jpg",
     },
     {
       title: "Pipelines",
       description:
         "Instrumentation cables for SCADA and monitoring systems",
-      image: "//ia4.jpg",
+      image: "/ia4.jpg",
       tall: true,
     },
     {
       title: "Storage Facilities",
       description:
         "Fire-resistant cables for tank farms and depots",
-      image: "//ia2.jpg",
+      image: "/ia2.jpg",
       wide: true,
     },
   ];

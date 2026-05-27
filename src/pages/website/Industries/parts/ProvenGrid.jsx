@@ -7,7 +7,7 @@ export default function ProvenProjects() {
       title: "Offshore Platform Electrification",
       description:
         "Complete cable solution for offshore drilling platform in the Arabian Sea.",
-      image: "//ip1.png",
+      image: "/ip1.png",
       large: true,
       tags: ["High Efficiency", "High Load Capacity"],
     },
@@ -16,7 +16,7 @@ export default function ProvenProjects() {
       title: "Refinery Power Distribution",
       description:
         "High-voltage cables for refinery power distribution systems.",
-       image: "//ip2.jpg",
+       image: "/ip2.jpg",
       tags: ["High Efficiency", "High Load Capacity"],
     },
   ];

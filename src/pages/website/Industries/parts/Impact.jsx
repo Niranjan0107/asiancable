@@ -1,19 +1,19 @@
 export default function AsianCablesImpact() {
   const impacts = [
     {
-      icon: "//impact2.svg",
+      icon: "/impact2.svg",
       title: "Advanced Cable Engineering",
       description:
         "High-performance power and specialty cables using advanced insulation technologies and high-quality conductors.",
     },
     {
-      icon: "//impact1.svg",
+      icon: "/impact1.svg",
       title: "Global Standards Compliance",
       description:
         "Internationally recognised standards including IEC, BS, AS/NZS and IS.",
     },
     {
-      icon: "//impact3.svg",
+      icon: "/impact3.svg",
       title: "Technical & Customer Support",
       description:
         "Dedicated technical teams provide engineering consultation, product selection guidance and project-specific cable solutions. Responsive customer support and after-sales assistance.",

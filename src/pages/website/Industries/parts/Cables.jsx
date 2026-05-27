@@ -6,26 +6,26 @@ export default function IndustryProducts() {
       title: "Instrumentation Cables",
       description:
         "Feature high-quality copper conductors, advanced insulation materials and shielding options to minimize signal interference.",
-      image: "//product1.png",
+      image: "/product1.png",
     },
     {
       title:
         "High Voltage Cables / Extra High Voltage Cables",
       description:
         "Manufactured using advanced XLPE insulation technology and precision engineering, these cables ensure superior electrical reliability and long service life.",
-      image: "//product2.png",
+      image: "/product2.png",
     },
     {
       title: "Elastomeric / Rubber Cables",
       description:
         "Elastomeric insulation compounds that provide excellent mechanical strength, flexibility and resistance to heat and abrasion.",
-      image: "//product3.png",
+      image: "/product3.png",
     },
     {
       title: "Cathodic Protection Cables",
       description:
         "Fluoropolymer insulation and high-molecular-weight polyethylene sheath for superior chemical resistance and durability.",
-      image: "//product4.png",
+      image: "/product4.png",
     },
   ];
 

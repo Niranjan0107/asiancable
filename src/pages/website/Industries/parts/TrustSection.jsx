@@ -1,10 +1,10 @@
 export default function TrustedLeaders() {
   const logos = [
-    "//jica.svg",
-    "//gprc.svg",
-    "//csiro.svg",
-    "//bode.svg",
-    "//daniel.svg",
+    "/jica.svg",
+    "/gprc.svg",
+    "/csiro.svg",
+    "/bode.svg",
+    "/daniel.svg",
   ];
 
   return (
